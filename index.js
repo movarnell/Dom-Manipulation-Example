@@ -57,6 +57,7 @@ function textColorToTable(color) {
     let cell = document.createElement('td');
     let cell2 = document.createElement('td');
     
+    row.classList.add('table-transition')
     cell.innerHTML = color;
     row.appendChild(cell);
     row.appendChild(cell2);
@@ -64,7 +65,8 @@ function textColorToTable(color) {
     tbody.appendChild(row);
    
     for (let i = 0; i < tbody.rows.length; i++) {
-        tbody.rows[i].cells[0].style.color = tbody.rows[i].cells[0].innerHTML;
+        tbody.rows[i].cells[0].style.color = tbody.
+        rows[i].cells[0].innerHTML;
         tbody.rows[i].cells[1].style.color = tbody.rows[i].cells[0].innerHTML;
     }
  

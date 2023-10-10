@@ -9,3 +9,21 @@ td {
     padding: 10px;
     background-color: white;   
 }
+
+.trans-movement {
+    transition: 1s;
+}
+
+.table-transition {
+    transition: 1s;
+    animation: fadein ease 1s;
+    
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
