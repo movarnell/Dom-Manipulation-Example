@@ -6,11 +6,12 @@ let btn4 = document.getElementById("button4");
 
 // Get references to various HTML elements
 let table = document.getElementById("table");
+let tbody = document.getElementById("tbody");
 let body = document.getElementById("body");
 let col1 = document.getElementById("col1");
 let col2 = document.getElementById("col2");
 let col3 = document.getElementById("col3");
-let tbody = document.getElementById("tbody");
+
 
 // Initialize the display property of 'title' to 'show'
 title.style.display = "show";
